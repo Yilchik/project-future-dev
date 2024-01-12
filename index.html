@@ -19,7 +19,7 @@
     />
     
     <script type="module" crossorigin src="/project-future-dev/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-future-dev/assets/index-9591e619.css">
+    <link rel="stylesheet" href="/project-future-dev/assets/index-a5160c03.css">
   </head>
   <body>
     
@@ -51,7 +51,7 @@
             name="user-name"
             type="text"
             placeholder="Enter your name"
-            pattern="regexp"
+            pattern="[A-Za-z]"
           />
           <input
             class="form-input"
@@ -59,7 +59,7 @@
             name="user-email"
             type="email"
             placeholder="Enter your email"
-            pattern="regexp"
+            pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
           />
           <textarea
             class="form-comment"
@@ -78,7 +78,7 @@
       </p>
     </div>
     <div class="foto">
-      <picture>
+      <picture class="picture-foto-small">
         <source
           media="(min-width: 1280px)"
           srcset="
@@ -95,7 +95,7 @@
           class="foto-small"
         />
       </picture>
-      <picture>
+      <picture class="picture-foto-big">
         <source
           media="(min-width: 1280px)"
           srcset="
