@@ -6,14 +6,24 @@
 }
 
 .sign-up-name {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
   margin-bottom: 20px;
 }
 
 .text-color {
   color: #bea69e;
 }
+
 .sign-up-caption {
+  width: 295px;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
 }
+
 .sign-up-form {
 }
 
@@ -39,13 +49,34 @@
 
 .form-input::placeholder,
 .form-comment::placeholder {
-  color: #fff;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.28em;
+  line-height: 1.28;
 }
 
 .button {
+  border-radius: 12px;
+  background-color: #fff;
+  display: flex;
+  width: 335px;
+  padding: 14px 127px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #121212;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: uppercase;
 }
+
+.agree {
+  width: 335px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  line-height: 1.33;
+}
+
 .form-privacy-link {
+  text-decoration-line: underline;
 }
