@@ -1,0 +1,44 @@
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-name {
+  margin-bottom: 20px;
+}
+
+.text-color {
+  color: #bea69e;
+}
+.sign-up-caption {
+}
+.sign-up-form {
+}
+.form {
+  background-color: ;
+}
+
+.sign-up-input {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 41px;
+  margin-bottom: 40px;
+}
+
+.form-input,
+.form-comment {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: #121212;
+  width: 100%;
+}
+
+.button {
+}
+.form-privacy-link {
+}
