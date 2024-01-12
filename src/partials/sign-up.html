@@ -1,0 +1,48 @@
+<section class="sign-up" id="sign-up">
+  <div class="container">
+    <h2 class="sign-up-name">Sign <span class="text-color">Up</span></h2>
+    <p class="sign-up-caption">
+      Please use the form below to contact us. Enter your name, email, and
+      message and we'll get back to you shortly.
+    </p>
+    <form
+      class="sign-up-form form"
+      name="sign-up"
+      novalidate
+      autocomplete="on"
+      method="post"
+    >
+      <div class="sign-up-input">
+        <input
+          class="form-input"
+          id="user-name"
+          name="user-name"
+          type="text"
+          placeholder="Enter your name"
+          pattern="regexp"
+        />
+        <input
+          class="form-input"
+          id="user-email"
+          name="user-email"
+          type="email"
+          placeholder="Enter your email"
+          pattern="regexp"
+        />
+        <textarea
+          class="form-comment"
+          id="user-comment"
+          name="user-comment"
+          rows="5"
+          placeholder="Message"
+        ></textarea>
+      </div>
+    </form>
+    <button type="submit" class="button">Send</button>
+    <p class="agree">
+      By clicking on “Send” button, you agree to our
+      <a class="form-privacy-link" href="">Privacy&nbsp;Policy</a>, and allow
+      Promodo to use this information for marketing purposes.
+    </p>
+  </div>
+</section>
