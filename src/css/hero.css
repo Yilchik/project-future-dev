@@ -20,7 +20,7 @@
     padding: 40px 20px 0;
 }
 
-.desk-left {}
+
 
 .hero-title {
     font-size: 40px;
@@ -75,14 +75,6 @@
     margin-left: -12px;
 }
 
-.images-wrapper {}
-
-.usrs-wrap-img {}
-
-.hero-usrs-wrap-img {}
-
-.users-text {}
-
 .users-text-link {
     display: flex;
     gap: 4px;
@@ -96,7 +88,9 @@
     letter-spacing: -0.04em;
 }
 
-.users-text-icon {}
+.users-text-icon {
+    fill: rgba(255, 255, 255, 1);
+}
 
 .block-reviews {
     display: flex;
@@ -113,9 +107,10 @@
     background-color: #BEA69E;
 }
 
-.rev-icon-star {}
-
-.reviews-text {}
+.rev-icon-star {
+    fill: none;
+    stroke: rgba(18, 18, 18, 1);
+}
 
 .reviews-text-desc {
     max-width: 57px;
@@ -131,8 +126,6 @@
     line-height: 1.13;
     letter-spacing: -0.04em;
 }
-
-.desk-right {}
 
 .image-low {
     margin-right: auto;
