@@ -80,7 +80,20 @@
     position: absolute;
     top:28px;
     right: 28px;
-    margin-bottom: 28px;
+ 
+    border-radius: 50%;
+    background-color: #1D1D1D;
+    width: 32px;
+    height: 32px;
+}
+.courses-link-icon{
+    fill:#FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+
 }
 .courses-name {
     color: #FFF;
@@ -100,3 +113,4 @@
     line-height: 1.28; /* 128.571% */
     letter-spacing: -0.28px;
 }
+
