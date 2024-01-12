@@ -178,7 +178,9 @@
   background-color: #bea69e;
   padding: 76px 19px 62px;
   margin-left: 60px;
-  object-fit: fill;
+  object-fit: none;
+  overflow: visible;
+  box-shadow: -35.562px 17.781px 25.44px 0px rgba(0, 0, 0, 0.26);
 }
 
 .foto-big {
