@@ -171,6 +171,9 @@
   }
 }
 
+.picture-foto-small {
+}
+
 .foto-small {
   max-width: 180px;
   max-height: 288px;
@@ -178,7 +181,8 @@
   background-color: #bea69e;
   padding: 76px 19px 62px;
   margin-left: 60px;
-  object-fit: fill;
+  object-fit: cover;
+  box-shadow: -35.562px 17.781px 25.44px 0px rgba(0, 0, 0, 0.26);
 }
 
 .foto-big {
