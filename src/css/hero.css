@@ -1,6 +1,9 @@
 .hero {
     background-color: #121212;
     color: #fff;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    background-image: url(../img/header/header_bg_mob@1x.png);
 }
 
 .hero-container {
@@ -13,6 +16,7 @@
 
     margin-left: auto;
     margin-right: auto;
+
     padding: 40px 20px 0;
 }
 
@@ -52,7 +56,7 @@
     margin-bottom: 31px;
 }
 
-.block-users {}
+
 
 .users-images {
     display: flex;
@@ -133,4 +137,121 @@
 .image-low {
     margin-right: auto;
     margin-left: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-container {
+        max-width: 704px;
+        padding: 64px 32px 0;
+    }
+
+    .hero-title {
+        max-width: 517px;
+        font-size: 60px;
+        line-height: 1.07;
+    }
+
+    .hero-accent {
+        font-size: 60px;
+        line-height: 1.07px;
+    }
+
+    .hero-title-desk {
+        max-width: 418px;
+    }
+
+    .block-users {
+        display: flex;
+        gap: 12px;
+    }
+
+    .hero-block {
+        max-width: 390px;
+        margin-bottom: 40px;
+        justify-content: space-between;
+    }
+
+    .users-images {
+        margin-bottom: 0;
+    }
+
+    .usrs-wrap-img {
+        width: 54px;
+        height: 54px;
+    }
+
+    .users-text-link {
+        gap: 8px;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .users-text-desc {
+        max-width: 82px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .rev-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .reviews-text-desc {
+        width: 57px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .reviews-text-number {
+        line-height: 1.25;
+    }
+
+    .image-low {
+        width: 393px;
+        height: 434px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .hero-container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1080px;
+        padding: 80px 50px 0;
+    }
+
+    .hero-title {
+        max-width: 563px;
+        font-size: 64px;
+        font-weight: 500;
+        line-height: 1.06;
+    }
+
+    .hero-accent {
+        font-size: 64px;
+        line-height: 1.06;
+    }
+
+    .hero-block {
+        max-width: 390px;
+    }
+
+    .hero-title-desk {
+        margin-bottom: 136px;
+    }
+
+    .image-low {
+        width: 397px;
+        height: 520px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .hero-container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1090px;
+        padding: 80px 100px 0 50px;
+    }
 }
