@@ -90,6 +90,8 @@
     line-height: 1.14; /* 114.286% */
     margin-bottom: 164px;
     margin-top: 56px;
+
+    max-width: 279px;
 }
 .about-courses {
     color: rgba(255, 255, 255, 0.50);
