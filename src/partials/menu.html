@@ -2,7 +2,7 @@
   <div class="menu-container">
     <button class="modal-btn" type="button" aria-label="modal close button">
       <svg class="modal-btn-icon" width="32" height="32">
-        <use href="../img/icon.svg#close-icon"></use>
+        <use href="././img/icon.svg#icon-close"></use>
       </svg>
     </button>
     <nav class="menu-nav">
@@ -13,10 +13,10 @@
           >
         </li>
         <li class="item-nav">
-          <a href="#Our courses" class="link-nav">Our courses</a>
+          <a href="#Ourcourses" class="link-nav">Our courses</a>
         </li>
         <li class="item-nav">
-          <a href="#Our mentors" class="link-nav">Our mentors</a>
+          <a href="#Ourmentors" class="link-nav">Our mentors</a>
         </li>
         <li class="item-nav">
           <a href="#Reviews" class="link-nav">Reviews</a>
@@ -29,14 +29,16 @@
     <picture>
       <!--PHONE-->
       <source
-        media="(max-width: 375px)"
+        media="(min-width: 375px)"
         srcset="./img/menu/menu-mob@1x.png 1x, ./img/menu/menu-mob@2x.png 2x"
       />
       <!-- TABLET -->
       <source
-        media="(max-width: 768px)"
+        class="image"
+        media="(min-width: 768px)"
         srcset="./img/menu/menu-tab@1x.png 1x, ./img/menu/menu-tab@2x.png 2x"
       />
+      <img class="image" src="./img/menu/menu-mob@1x.png" alt="" />
     </picture>
   </div>
 </div>
