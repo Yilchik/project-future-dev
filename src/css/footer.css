@@ -1,0 +1,171 @@
+<<<<<<< Updated upstream
+=======
+footer {
+    background-image: url('../img/footer/footer_bg_mob@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+
+
+
+
+
+.footer-container{
+
+}
+
+.footer-all{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p{
+    margin: 0;
+}
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.icon-logo {
+    color: #FFF !important; /* Устанавливаем цвет текста (в данном случае, для иконки) на черный */
+    width: 127px;
+height: 20px;
+flex-shrink: 0;
+margin-bottom: 16px;
+}
+
+
+
+.footer-top-contacts {
+    display: inline-flex;
+    height: 46px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    margin-bottom: 40px;
+}
+
+.footer-mid {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 75px;
+}
+
+.social-menu,.menu {
+    list-style: none;
+    text-decoration: none;
+    margin-right: auto;
+    color: #FFF;
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    margin: 0;
+    max-width: 100%;
+}
+
+
+.footer-bot{
+    margin-bottom: 40px;
+}
+
+.submit-form {
+    display: flex;
+    gap: 8px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footer-textarea {
+    width: 267px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FFF;
+    text-align: center;
+    
+
+}
+
+.go-bottom-btn {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #1d1d1d;
+    color: #fff;
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.footer-bot-text {
+    display: flex;
+    justify-content: space-between;
+    gap: 72px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 767.8px) {
+    .footer {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .footer {
+        background-image: url('../img/footer/footer_bg_tab2x.png');
+        
+    }
+    .footer-all{
+        flex-wrap:nowrap;
+        flex-direction:row;
+        justify-content: center;
+    }
+    .footer-textarea {
+        width: 178px;
+
+        
+    
+    }
+
+}
+@media only screen and (main-width: 1200px) {
+    .footer {
+        background-image: url('../img/footer/footer_bg_desk2x.png');
+}
+
+.footer-textarea {
+    width: 218px;
+    margin-left: 191px;
+    
+
+}
+.footer-mid{
+    margin-left: 340px;
+
+}
+
+}
+>>>>>>> Stashed changes
