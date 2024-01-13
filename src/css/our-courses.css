@@ -1,0 +1,102 @@
+.courses-section {
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.courses-wrap {
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.text-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.caption {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.15; /* 114.286% */
+    letter-spacing: -1.12px;
+    padding-bottom: 20px;
+}
+.caption-span{
+    color: #BEA69E;
+}
+.courses-desc {
+    padding-bottom: 40px;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    line-height: 1.28; /* 128.571% */
+    letter-spacing: -0.28px;
+}
+.courses-wrap-list {
+}
+.courses-list {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-position:inside;
+    list-style-type: none;
+    counter-reset: li 0;
+    gap: 20px;
+}
+
+.courses-container {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
+    max-width: 335px;
+    height:100%;
+    padding: 32px;
+    position: relative;
+}
+.courses-item {
+    
+}
+.courses-item::before{
+   
+    color: rgba(255, 255, 255, 0.40);
+    font-family: DM Sans;
+    font-size: 14px;
+    line-height: 1.28; /* 128.571% */
+    letter-spacing: -0.28px;
+
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    content: '0' counter(li);
+    counter-increment: li;
+}
+.courses-link {
+    color: #FFF;
+    position: absolute;
+    top:28px;
+    right: 28px;
+    margin-bottom: 28px;
+}
+.courses-name {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14; /* 114.286% */
+    margin-bottom: 164px;
+    margin-top: 56px;
+
+    max-width: 279px;
+}
+.about-courses {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: DM Sans;
+    font-size: 14px;
+    line-height: 1.28; /* 128.571% */
+    letter-spacing: -0.28px;
+}
