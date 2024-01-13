@@ -1,24 +1,6 @@
 /* Advertisement section */
-body {
-  margin: 0;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 .advertisement {
   overflow: hidden;
-  font-family: DM Sans;
-  color: #fff;
-  background: #121212;
-  font-size: 28px;
-  font-weight: 400;
-  line-height: 1.14;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -30,10 +12,14 @@ body {
 
 .advertisement-line {
   flex-shrink: 0;
-  margin: 0;
+  max-width: 588px;
   padding: 20px;
-  max-width: 100%;
   white-space: nowrap;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
   animation-name: advertisementLine;
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
@@ -55,19 +41,18 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .advertisement {
-    font-size: 40px;
-    line-height: 1.25;
-  }
-
   .advertisement-line {
+    min-width: 840px;
     padding-top: 24px;
     padding-bottom: 24px;
+    font-size: 40px;
+    line-height: 1.25;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .advertisement {
+  .advertisement-line {
+    min-width: 1239px;
     font-size: 59px;
     line-height: 1.08;
   }
