@@ -1,0 +1,98 @@
+/* About us section */
+.about-us-div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.about-us-title {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+}
+
+.about-us-title-color {
+  color: #bea69e;
+}
+
+.about-us-camera {
+  width: 335px;
+  height: 209px;
+  border-radius: 1000px;
+}
+
+.about-us-list {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.about-us-description {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-us-div {
+    gap: 50px;
+  }
+
+  .about-us-title {
+    font-size: 48px;
+    line-height: 1.12;
+  }
+
+  .about-us-camera {
+    width: 704px;
+    height: 340px;
+  }
+
+  .about-us-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .about-us-item-1,
+  .about-us-item-2 {
+    width: 280px;
+  }
+
+  .about-us-description {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-us-div {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .about-us-camera {
+    width: 488px;
+    height: 260px;
+  }
+
+  .about-us-list {
+    gap: 20px;
+  }
+
+  .about-us-item-1 {
+    width: 268px;
+  }
+
+  .about-us-item-2 {
+    width: 264px;
+  }
+}
