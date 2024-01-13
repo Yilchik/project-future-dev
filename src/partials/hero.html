@@ -1,0 +1,108 @@
+<section class="hero">
+  <div class="hero-container container">
+    <div class="desk-left">
+      <h1 class="hero-title">
+        Discover the magic of <span class="hero-accent">photography</span> in
+        our school
+      </h1>
+      <p class="hero-title-desk">
+        Our photography school offers an unforgettable journey, where you can
+        learn the basics of composition, master technical skills, translate your
+        unique ideas.
+      </p>
+      <div class="hero-block">
+        <div class="block-users">
+          <div class="users-images">
+            <div class="images-wrapper">
+              <img
+                class="usrs-wrap-img"
+                srcset="
+                  ./img/hero/hero-users1@1x.png 1x,
+                  ./img/hero/hero-users1@2x.png 2x
+                "
+                src="./img/hero/hero-users1@1x.png"
+                width="44"
+                height="44"
+                alt="avatar girl 1"
+              />
+            </div>
+            <div class="images-wrapper">
+              <img
+                class="usrs-wrap-img"
+                srcset="
+                  ./img/hero/hero-users2@1x.png 1x,
+                  ./img/hero/hero-users2@2x.png 2x
+                "
+                src="./img/hero/hero-users1@1x.png"
+                width="44"
+                height="44"
+                alt="avatar boy"
+              />
+            </div>
+            <div class="images-wrapper">
+              <img
+                class="usrs-wrap-img"
+                srcset="
+                  ./img/hero/hero-users3@1x.png 1x,
+                  ./img/hero/hero-users3@2x.png 2x
+                "
+                src="./img/hero/hero-users1@1x.png"
+                width="44"
+                height="44"
+                alt="avatar girl 2"
+              />
+            </div>
+          </div>
+          <div class="users-text">
+            <a class="users-text-link" href="#reviews">
+              <p class="users-text-desc">Our happy students</p>
+              <svg class="users-text-icon" width="18" height="9">
+                <use href="./img/icon.svg#icon-arrow-right"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="block-reviews">
+          <span class="rev-icon">
+            <svg class="rev-icon-star" width="20" height="20">
+              <use href="./img/icon.svg#icon-star"></use>
+            </svg>
+          </span>
+          <div class="reviews-text">
+            <p class="reviews-text-desc">Reviews</p>
+            <p class="reviews-text-number">+1500</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="desk-right">
+      <picture>
+        <!-- Desktop -->
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./img/hero/hero_desk@1x.png 1x,
+            ./img/hero/hero_desk@2x.png 2x
+          "
+        />
+        <!-- Tablet -->
+        <source
+          media="(min-width: 768px)"
+          srcset="./img/hero/hero_tab@1x.png 1x, ./img/hero/hero_tab@2x.png 2x"
+        />
+        <!-- Mobile -->
+        <source
+          media="(max-width: 767px)"
+          srcset="./img/hero/hero_mob@1x.png 1x, ./img/hero/hero_mob@1x.png 2x"
+        />
+        <img
+          class="image-low"
+          src="./img/hero/hero_mob@1x.png"
+          alt="man with a camera"
+          width="259"
+          height="314"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
