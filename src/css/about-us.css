@@ -1,13 +1,9 @@
 /* About us section */
-.about-us-div {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 40px;
+.about-us {
+  padding-top: 80px;
 }
 
 .about-us-title {
-  padding-top: 80px;
   padding-bottom: 40px;
   font-size: 28px;
   font-weight: 500;
@@ -17,6 +13,13 @@
 
 .about-us-title-color {
   color: #bea69e;
+}
+
+.about-us-div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
 }
 
 .about-us-camera {
@@ -34,18 +37,23 @@
 
 .about-us-description {
   font-size: 14px;
-  line-height: 1.28;
+  line-height: 1.29;
   letter-spacing: -0.02em;
 }
 
 @media only screen and (min-width: 768px) {
-  .about-us-div {
-    gap: 50px;
+  .about-us {
+    padding-top: 100px;
   }
 
   .about-us-title {
+    padding-bottom: 50px;
     font-size: 48px;
     line-height: 1.12;
+  }
+
+  .about-us-div {
+    gap: 50px;
   }
 
   .about-us-camera {
@@ -65,6 +73,10 @@
     width: 280px;
   }
 
+  .about-us-item-2 {
+    height: 215px;
+  }
+
   .about-us-description {
     font-size: 16px;
     line-height: 1.25;
@@ -72,6 +84,10 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .about-us {
+    padding-top: 150px;
+  }
+
   .about-us-div {
     display: inline-flex;
     flex-direction: row;
@@ -94,5 +110,6 @@
 
   .about-us-item-2 {
     width: 264px;
+    height: 215px;
   }
 }
