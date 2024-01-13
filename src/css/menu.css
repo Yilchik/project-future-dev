@@ -1,40 +1,49 @@
-.modal-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 218px;
-  height: 100%;
-  background-color: #bea69e;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  overflow-x: auto;
-}
 .modal-menu.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
+.modal-menu {
+  width: 100%;
+}
 .menu-container {
+  height: 100%;
+  width: 218px;
+  background-color: #bea69e;
+  position: fixed;
+  top: 0;
+  right: 0;
+  /* transform: translateX(-0); */
 }
 .modal-btn {
+  border: 0;
   position: absolute;
+  display: flex;
   top: 20px;
   right: 20px;
   align-items: center;
   justify-content: center;
   padding: 0;
+  background-color: #bea69e;
 }
 .modal-btn-icon {
 }
 .menu-nav {
+  margin-top: 180px;
+  margin-left: 20px;
+  max-width: 97px;
 }
 .list-nav {
   display: flex;
+  align-items: left;
+  justify-content: center;
   flex-direction: column;
   gap: 20px;
 }
 .item-nav {
+}
+.first-item {
+  font-weight: 700;
 }
 .link-nav {
   color: #121212;
@@ -42,14 +51,6 @@
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
-  text-transform: uppercase;
-}
-.first-item {
-  color: #121212;
-  font-family: DM Sans;
-  font-size: 14px;
-  font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
 }
