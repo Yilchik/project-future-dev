@@ -13,7 +13,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  /* transform: translateX(-0); */
+  transform: translateX(-);
 }
 .modal-btn {
   border: 0;
@@ -53,4 +53,41 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-container {
+    height: 100%;
+    width: 418px;
+    background-color: #bea69e;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(-);
+  }
+  .modal-btn {
+    top: 20px;
+    right: 32px;
+  }
+  .modal-btn-icon {
+  }
+  .menu-nav {
+    margin-top: 180px;
+    margin-left: 20px;
+    max-width: 97px;
+  }
+  .list-nav {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .item-nav {
+  }
+}
+@media screen and (min-width: 769px) {
+  .modal-menu {
+    display: none;
+  }
 }
