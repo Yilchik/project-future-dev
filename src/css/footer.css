@@ -1,11 +1,20 @@
-@media only screen and (max-width: 768px) {
-    .footer {
-        max-width: 100%;
-    }
+
+footer {
+    background-image: url('../img/footer/footer_bg_mob@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
+.section{
+    padding: 0;
+}
+
 .footer-container{
+    padding: 0;
+}
+
+.footer-all{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -25,12 +34,14 @@
 }
 
 .icon-logo {
-    color: black !important; /* Устанавливаем цвет текста (в данном случае, для иконки) на черный */
+    fill: #FFF ; /* Устанавливаем цвет текста (в данном случае, для иконки) на черный */
+    width: 127px;
+height: 20px;
+flex-shrink: 0;
+margin-bottom: 16px;
 }
 
-.icon-logo use {
-    fill: black !important; /* Устанавливаем цвет заливки (fill) для символа на черный */
-}
+
 
 .footer-top-contacts {
     display: inline-flex;
@@ -40,6 +51,8 @@
     align-items: flex-start;
     flex-shrink: 0;
     margin-bottom: 40px;
+    white-space :nowrap;
+    text-decoration: none;
 }
 
 .footer-mid {
@@ -47,6 +60,7 @@
     align-items: flex-start;
     gap: 40px;
     margin-bottom: 75px;
+    margin-left: 20px;
 }
 
 .social-menu,.menu {
@@ -66,6 +80,7 @@
     gap: 14px;
     margin: 0;
     max-width: 100%;
+    white-space :nowrap;
 }
 
 
@@ -87,8 +102,13 @@
     border-radius: 12px;
     background: #FFF;
     text-align: center;
-    
-
+    padding: 20px 110px 20px 18px;
+    color: #121212;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
 }
 
 .go-bottom-btn {
@@ -113,4 +133,70 @@
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    padding: 0;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .footer {
+        background-image: url('../img/footer/footer_bg_tab@2x.png');
+
+    }
+    .footer-all{
+        flex-wrap:nowrap;
+        flex-direction:row;
+        justify-content: center;
+    }
+    .footer-mid{
+        margin-left: 56px;
+        gap: 50px;
+        margin-right: 59px;
+        margin-left: 57px;
+    }
+    .footer-textarea {
+        width: 178px;
+        padding: 20px 20px 20px 20px;
+        
+
+    }
+
+@media only screen and (min-width: 1278px) {
+    .footer {
+        background-image: url('../img/footer/footer_bg_desk2x.png');
+}
+
+.footer-top{
+    margin-left: 100px;
+}
+
+.social-menu{
+    gap: 20px;
+}
+
+.menu{
+    gap: 20px;
+}
+.footer-textarea {
+    width: 216px;
+
+
+}
+.footer-mid{
+    margin-left: 240px;
+    gap: 100px;
+    margin-right: 191px;
+    margin-bottom: 50px;
+
+}
+.footer-bot{
+    margin-right: 100px;
+}
+
+.footer-bot-text{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+}
 }
