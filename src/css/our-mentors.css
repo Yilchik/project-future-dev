@@ -19,7 +19,6 @@
 
 .our-mentors-title-h2 {     
     color: #BEA69E;
-    font-family: DM Sans, sans-serif;
     font-size: 28px;
     font-weight: 500;
     line-height: 1.14;
@@ -30,7 +29,6 @@
 
 .span-our {
    color: #FFF;
-    font-family: DM Sans, sans-serif;
     font-size: 28px;
     font-weight: 500;
     line-height: 1.14;
@@ -38,9 +36,10 @@
 }
 
 @media screen and (min-width:768px) {
-    .our-mentors-title-h2{
+    .our-mentors-title-h2 {
         font-size: 48px;
         line-height: 1.12;
+        margin-bottom: 50px;
     }
     .span-our {
         font-size: 48px;
@@ -105,7 +104,6 @@
 .our-mentors-title-h3 {
     color: #FFF;
     text-align: center;
-    font-family: DM Sans, sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -113,7 +111,7 @@
     }
 
 @media screen and (min-width: 768px) {
-    .our-mentors-title {
+    .our-mentors-title-h3 {
         font-size: 28px;
         line-height: 1.14;
       }
@@ -122,7 +120,6 @@
 .our-mentors-text {
         color: rgba(255, 255, 255, 0.50);
         text-align: center;
-        font-family: DM Sans, sans-serif;
         font-size: 12px;
         font-weight: 400;
         line-height: 1.33;
