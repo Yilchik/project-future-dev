@@ -1,7 +1,4 @@
 /* About us section */
-.about-us {
-  padding-top: 80px;
-}
 
 .about-us-title {
   padding-bottom: 40px;
@@ -23,8 +20,7 @@
 }
 
 .about-us-camera {
-  width: 335px;
-  height: 209px;
+  max-width: 335px;
   border-radius: 1000px;
 }
 
@@ -42,10 +38,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .about-us {
-    padding-top: 100px;
-  }
-
   .about-us-title {
     padding-bottom: 50px;
     font-size: 48px;
@@ -57,8 +49,7 @@
   }
 
   .about-us-camera {
-    width: 704px;
-    height: 340px;
+    min-width: 704px;
   }
 
   .about-us-list {
@@ -84,10 +75,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .about-us {
-    padding-top: 150px;
-  }
-
   .about-us-div {
     display: inline-flex;
     flex-direction: row;
@@ -96,8 +83,7 @@
   }
 
   .about-us-camera {
-    width: 488px;
-    height: 260px;
+    min-width: 488px;
   }
 
   .about-us-list {
