@@ -2,12 +2,7 @@ footer {
   background-image: url('../img/footer/footer_bg_mob@2x.png');
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.footer-stroke {
-  stroke-width: 1px;
-  fill: rgba(255, 255, 255, 0.2);
-  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .section {
@@ -15,7 +10,7 @@ footer {
 }
 
 .footer-container {
-  padding: 0;
+  padding-top: 40px;
 }
 
 .footer-all {
