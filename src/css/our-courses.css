@@ -140,7 +140,8 @@
   width: 32px;
   height: 32px;
 }
-Hover for link .courses-link:hover,
+/* Hover for link  */
+.courses-link:hover,
 .courses-link:focus {
   background-color: #bea69e;
 }
