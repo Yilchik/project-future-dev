@@ -5,12 +5,6 @@
   align-items: center;
 }
 
-@media only screen and (min-width: 768px) {
-  .sign-up {
-    max-width: 480px;
-  }
-}
-
 .sign-up-container {
   display: flex;
   justify-content: center;
@@ -46,7 +40,7 @@
 
 @media only screen and (min-width: 768px) {
   .sign-up-caption {
-    width: 100%;
+    width: 480px;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
@@ -178,8 +172,8 @@
   background-color: #bea69e;
   padding: 76px 19px 62px;
   margin-left: 60px;
-  object-fit: none;
-  overflow: visible;
+  /* object-fit: none;
+  overflow-x: visible; */
   box-shadow: -35.562px 17.781px 25.44px 0px rgba(0, 0, 0, 0.26);
 }
 
