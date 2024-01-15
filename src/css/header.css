@@ -2,19 +2,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
 @media screen and (min-width: 768px) {
     .header-container {
-        margin-bottom: 40px;
+        padding-bottom: 40px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .header-container {
-        margin-bottom: 80px;
+        padding-bottom: 80px;
     }
 }
 
@@ -29,7 +28,7 @@
 
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
-    background: inherit;
+    background: #121212;
 }
 
 @media screen and (min-width: 768px) {
@@ -140,7 +139,7 @@
     }
 }
 
-.sing-up-btn {
+.sign-up-btn {
     border-radius: 12px;
     background: #FFF;
     border: none;
@@ -160,13 +159,13 @@
 }
 
 @media screen and (max-width: 767.98px) {
-    .sing-up-btn {
+    .sign-up-btn {
         display: none;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .sing-up-btn {
+    .sign-up-btn {
         padding: 16px 84px;
 
     }
