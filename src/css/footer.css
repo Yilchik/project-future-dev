@@ -82,10 +82,10 @@ footer {
 .submit-form {
   display: flex;
   gap: 8px;
-
   flex-wrap: nowrap;
   border: none;
 }
+
 .email-input {
   display: flex;
   gap: 8px;
