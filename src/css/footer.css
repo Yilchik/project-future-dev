@@ -5,12 +5,9 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.section {
-  padding: 0;
-}
-
 .footer-container {
   padding-top: 40px;
+  padding-bottom: 0;
 }
 
 .footer-all {
