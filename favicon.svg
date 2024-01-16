@@ -11,6 +11,6 @@
     </defs>
   </svg>
   <style>
-    @media (prefers-color-scheme:light){:root{filter:contrast(1) brightness(1)}}@media (prefers-color-scheme:dark){:root{filter:contrast(.8333333333333334) brightness(1.7)}}
+    @media (prefers-color-scheme:light){:root{filter:contrast(1) brightness(1)}}
   </style>
 </svg>
