@@ -156,6 +156,7 @@ footer {
     .footer-top{
         margin-top: 50px;
         width: 174px;
+        margin-right: 0;
     }
     .footer-all {
         flex-wrap: nowrap;
