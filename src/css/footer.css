@@ -157,12 +157,12 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  .footer {
+  footer {
     background-image: url(/img/footer/footer_bg_tab@1x.png);
   }
 
   @media only screen and (min-resolution: 192dpi) {
-    .footer {
+    footer {
       background-image: url(/img/footer/footer_bg_tab@2x.png);
     }
   }
@@ -194,12 +194,12 @@ footer {
   }
 
   @media only screen and (min-width: 1280px) {
-    .footer {
+    footer {
       background-image: url(/img/footer/footer_bg_desk1280@1x.png);
     }
 
     @media only screen and (min-resolution: 192dpi) {
-      .footer {
+      footer {
         background-image: url(/img/footer/footer_bg_desk1280@2x.png);
       }
     }
