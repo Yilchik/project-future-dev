@@ -11,12 +11,14 @@
   align-items: flex-start;
   justify-content: space-between;
   gap: 20px;
+  margin-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
   /* tablet */
   .text-wrap {
     flex-direction: row;
     gap: 58px;
+    margin-bottom: 50px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -45,7 +47,7 @@
   color: #bea69e;
 }
 .courses-desc {
-  padding-bottom: 40px;
+  
   color: #fff;
   font-size: 14px;
   line-height: 1.28; /* 128.571% */
@@ -58,7 +60,6 @@
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
-    padding-bottom: 50px;
     max-width: 360px;
   }
 }
