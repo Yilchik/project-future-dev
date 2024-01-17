@@ -1,0 +1,106 @@
+/* About us section */
+.about-us-title {
+  padding-bottom: 40px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+}
+
+.about-us-title-color {
+  color: #bea69e;
+}
+
+.about-us-div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.about-us-camera {
+  max-width: 100%;
+  border-radius: 1000px;
+}
+
+.about-us-list {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.about-us-description {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+}
+
+@media only screen and (min-width: 375px) {
+  .about-us-camera {
+    min-width: 335px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .about-us-title {
+    padding-bottom: 50px;
+    font-size: 48px;
+    line-height: 1.12;
+  }
+
+  .about-us-div {
+    gap: 50px;
+  }
+
+  .about-us-camera {
+    min-width: 704px;
+  }
+
+  .about-us-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .about-us-item-1,
+  .about-us-item-2 {
+    width: 280px;
+  }
+
+  .about-us-item-2 {
+    height: 215px;
+  }
+
+  .about-us-description {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-us-div {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .about-us-camera {
+    min-width: 488px;
+  }
+
+  .about-us-list {
+    gap: 20px;
+  }
+
+  .about-us-item-1 {
+    width: 268px;
+  }
+
+  .about-us-item-2 {
+    width: 264px;
+    height: 215px;
+  }
+}

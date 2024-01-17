@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
+    <g clip-path="url(#clip0_86_1843)">
+      <path fill="#BEA69E" fill-opacity=".4" d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z"/>
+      <path fill="#BEA69E" fill-opacity=".4" d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2Zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"/>
+    </g>
+    <defs>
+      <clipPath id="SvgjsClipPath1000">
+        <path fill="#fff" d="M0 0h16v16H0z"/>
+      </clipPath>
+    </defs>
+  </svg>
+  <style>
+    @media (prefers-color-scheme:light){:root{filter:contrast(1) brightness(1)}}
+  </style>
+</svg>

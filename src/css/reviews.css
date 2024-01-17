@@ -1,0 +1,138 @@
+.reviews-title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+    margin-bottom: 40px;
+}
+
+.students {
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.students:not(:first-child) {
+    display: none;
+}
+
+.reviews-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-bottom: 4px;
+}
+
+.reviews-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+
+    margin-bottom: 4px;
+}
+
+.reviews-status {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+}
+
+.rev-star-list {
+    display: flex;
+    gap: 4px;
+
+    margin-left: 66px;
+    margin-bottom: 20px;
+}
+
+.rev-star-item {
+    width: 16px;
+    height: 16px;
+}
+
+.rev-star-icon {
+    fill: #BEA69E;
+}
+
+.rev-star-item:last-child>.rev-star-icon {
+    fill: #414141;
+}
+
+.reviews-desc {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .reviews-all {
+        margin: 0 32px;
+    }
+
+    .students {
+        position: relative;
+    }
+
+    .reviews-title {
+        font-size: 48px;
+        line-height: 1.13;
+        margin-bottom: 50px;
+    }
+
+    .rev-star-list {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        margin: 0;
+    }
+
+    .reviews-top {
+        margin-bottom: 20px;
+    }
+
+    .reviews-name {
+        line-height: 1.4;
+    }
+
+    .reviews-status {
+        font-size: 14px;
+        line-height: 1.29;
+    }
+
+    .reviews-desc {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .rev-star-item {
+        width: 20px;
+        height: 20px;
+    }
+
+    .rev-star-icon {
+        width: 20px;
+        height: 20px;
+        fill: #BEA69E;
+    }
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .reviews-all {
+        display: flex;
+        gap: 20px;
+        margin: 0;
+    }
+
+    .students {
+        width: calc((100% - 20px)/ 1);
+    }
+
+    .students:not(:first-child) {
+        display: block;
+    }
+}

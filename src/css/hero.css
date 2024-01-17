@@ -1,19 +1,48 @@
 .hero {
-    background-color: #121212;
-    color: #fff;
-    padding-top: 90px;
-    padding-bottom: 80px;
+    /* padding-top: 90px; */
     background-image: url(../img/header/header_bg_mob@1x.png);
 }
+
+/* Медіа-запит для ретіна-дисплеїв (2x) на мобільних екранах */
+@media only screen and (min-resolution: 192dpi) {
+    .hero {
+        background-image: url(/img/header/header_bg_mob@2x.png);
+    }
+}
+
+/* Медіа-запит для екранів з шириною від 768px і більше (планшети та більше) */
+@media only screen and (min-width: 768px) {
+    .hero {
+        background-image: url(/img/header/header_bg_tab@1x.png);
+    }
+
+    @media only screen and (min-resolution: 192dpi) {
+        .hero {
+            background-image: url(/img/header/header_bg_tab@2x.png);
+        }
+    }
+}
+
+/* Медіа-запит для екранів з шириною від 1280px і більше */
+@media only screen and (min-width: 1280px) {
+    .hero {
+        background-image: url(/img/header/header_bg_desk1280@1x.png);
+    }
+
+    @media only screen and (min-resolution: 192dpi) {
+        .hero {
+            background-image: url(/img/header/header_bg_desk1280@2x.png);
+        }
+    }
+}
+
+
 
 .hero-container {
     max-width: 335px;
     min-width: 320px;
-
     background: #1D1D1D;
-
     border-radius: 30px;
-
     margin-left: auto;
     margin-right: auto;
 
@@ -228,6 +257,7 @@
 
     .hero-block {
         max-width: 390px;
+        margin-bottom: 0;
     }
 
     .hero-title-desk {
@@ -237,6 +267,10 @@
     .image-low {
         width: 397px;
         height: 520px;
+    }
+
+    .desk-left {
+        padding-bottom: 50px;
     }
 }
 
