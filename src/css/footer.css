@@ -32,6 +32,7 @@ footer {
 }
 
 .footer-top {
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
