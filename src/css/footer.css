@@ -1,228 +1,240 @@
 footer {
-    background-image: url('../img/footer/footer_bg_mob@2x.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    padding-top: 40px;
-    padding-bottom: 0;
-    margin: 0;
+  background-image: url('../img/footer/footer_bg_mob@2x.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 40px;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.footer-container {
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+
+.footer-all {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.p {
+  margin: 0;
+}
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.icon-logo {
+  fill: #fff; /* Устанавливаем цвет текста (в данном случае, для иконки) на черный */
+  width: 127px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-bottom: 16px;
+}
+
+.footer-top-contacts {
+  display: inline-flex;
+  height: 46px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+  white-space: nowrap;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.footer-mid {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 75px;
+}
+
+.social-menu,
+.menu {
+  list-style: none;
+  text-decoration: none;
+  margin-right: auto;
+  color: #fff;
+
+  font-size: 14px;
+
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  margin: 0;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+.footer-bot {
+  margin-bottom: 40px;
+}
+
+.submit-form {
+  display: flex;
+  gap: 8px;
+  flex-wrap: nowrap;
+  border: none;
+}
+
+.footer-textarea {
+  width: 267px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #fff;
+  text-align: center;
+  padding: 20px 129px 20px 18px;
+  color: #121212;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  border: none;
+}
+
+.go-bottom-btn {
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #1d1d1d;
+  color: #fff;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  border: none;
+}
+
+.footer-bot-text {
+  display: flex;
+  justify-content: space-between;
+  gap: 72px;
+  margin-bottom: 20px;
+
+  padding: 0;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 375px) {
+  .footer-bot-text {
+    max-width: 375px;
   }
-  
-  .footer-container {
-    padding-top: 40px;
-    padding-bottom: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-bot-text {
+    max-width: 720px;
   }
+}
 
+@media only screen and (min-width: 1280px) {
+  .footer-bot-text {
+    max-width: 1080px;
+  }
+}
 
-
-  .footer-all {
+@media only screen and (min-width: 768px) {
+  .footer-section {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+  }
+
+  .footer {
+    background-image: url('../img/footer/footer_bg_tab@1x.png');
+  }
+
+  .footer-stroke {
+    padding-bottom: 50px;
+  }
+
+  @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .footer {
+      background-image: url('../img/footer/footer_bg_tab@2x.png');
+    }
+  }
+  .footer-all {
+    flex-wrap: nowrap;
+    flex-direction: row;
     justify-content: center;
   }
-  
-  .p {
-    margin: 0;
-  }
-  .footer-top {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin-right: auto;
-  }
-  
-  .icon-logo {
-    fill: #fff; /* Устанавливаем цвет текста (в данном случае, для иконки) на черный */
-    width: 127px;
-    height: 20px;
-    flex-shrink: 0;
-    margin-bottom: 16px;
-  }
-  
-  .footer-top-contacts {
-    display: inline-flex;
-    height: 46px;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-shrink: 0;
-    white-space: nowrap;
-    text-decoration: none;
-    font-size: 14px;
-    margin-bottom: 40px;
-  }
-  
   .footer-mid {
-    display: flex;
-    align-items: flex-start;
-    gap: 40px;
-    margin-bottom: 75px;
+    margin-left: 56px;
+    gap: 25px;
+    margin-right: 59px;
+    margin-left: 57px;
   }
-  
-  .social-menu,
-  .menu {
-    list-style: none;
-    text-decoration: none;
-    margin-right: auto;
-    color: #fff;
-  
-    font-size: 14px;
-  
-    line-height: normal;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 14px;
-    margin: 0;
-    max-width: 100%;
-    white-space: nowrap;
-  }
-  
-  .footer-bot {
-    margin-bottom: 40px;
-  }
-  
-  .submit-form {
-    display: flex;
-    gap: 8px;
-    flex-wrap: nowrap;
-    border: none;
-  }
-  
   .footer-textarea {
-    width: 267px;
-    height: 60px;
-    flex-shrink: 0;
-    border-radius: 12px;
-    background: #fff;
-    text-align: center;
-    padding: 20px 129px 20px 18px;
-    color: #121212;
-    font-family: DM Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 125% */
-    border: none;
+    width: 178px;
+    padding: 20px 20px 20px 20px;
   }
-  
-  .go-bottom-btn {
-    width: 60px;
-    height: 60px;
-    flex-shrink: 0;
-    border-radius: 12px;
-    background: #1d1d1d;
-    color: #fff;
-    text-align: center;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%;
-    border: none;
-  }
-  
-  .footer-bot-text {
-    display: flex;
-    justify-content: space-between;
-    gap: 72px;
-    margin-bottom: 20px;
-  
-    padding: 0;
-    font-size: 12px;
-  }
-  
-  @media only screen and (min-width: 768px) {
 
-    .footer-section{
-        display: flex;
-      }
-      
+  @media only screen and (min-width: 1278px) {
     .footer {
-      background-image: url('../img/footer/footer_bg_tab@1x.png');
+      background-image: url('../img/footer/footer_bg_desk1280@1x.png');
     }
-  
-    .footer-stroke {
-      padding-bottom: 50px;
-    }
-  
-    @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+
+    @media only screen and (min-width: 1278px) and (min-resolution: 192dpi) {
       .footer {
-        background-image: url('../img/footer/footer_bg_tab@2x.png');
+        background-image: url('../img/footer/footer_bg_desk1280@2x.png');
       }
     }
-    .footer-all {
-      flex-wrap: nowrap;
-      flex-direction: row;
-      justify-content: center;
+
+    .social-menu {
+      gap: 20px;
+    }
+
+    .menu {
+      gap: 20px;
+    }
+    .footer-textarea {
+      width: 216px;
     }
     .footer-mid {
-      margin-left: 56px;
-      gap: 25px;
-      margin-right: 59px;
-      margin-left: 57px;
-    }
-    .footer-textarea {
-      width: 178px;
-      padding: 20px 20px 20px 20px;
-    }
-  
-    @media only screen and (min-width: 1278px) {
-      .footer {
-        background-image: url('../img/footer/footer_bg_desk1280@1x.png');
-      }
-  
-      @media only screen and (min-width: 1278px) and (min-resolution: 192dpi) {
-        .footer {
-          background-image: url('../img/footer/footer_bg_desk1280@2x.png');
-        }
-      }
-  
-      .social-menu {
-        gap: 20px;
-      }
-  
-      .menu {
-        gap: 20px;
-      }
-      .footer-textarea {
-        width: 216px;
-      }
-      .footer-mid {
-        margin-left: 234px;
-        gap: 100px;
-        margin-right: 135px;
-        margin-bottom: 50px;
-      }
+      margin-left: 234px;
+      gap: 100px;
+      margin-right: 135px;
+      margin-bottom: 50px;
     }
   }
+}
 
-  @media only screen and (min-width: 150px) and (max-width: 374.98px) {
-
-    .footer-textarea {
-        width: 200px;
-        padding: 0;
-    }
-
-    .footer-bot-text{
-        margin-left: 20px;
-        margin-right: 20px;
-        width: 280px;
-        min-width: 220px;
-    }
+@media only screen and (min-width: 150px) and (max-width: 374.98px) {
+  .footer-textarea {
+    width: 200px;
+    padding: 0;
   }
 
-  @media only screen and (min-width: 375px) and (max-width:450px){
-
-    .footer-textarea {
-        width: 250px;
-        padding: 0;
-    }
-
-    .footer-bot-text{
-        width: 290px;
-
-    }
+  .footer-bot-text {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 280px;
+    min-width: 220px;
   }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 450px) {
+  .footer-textarea {
+    width: 250px;
+    padding: 0;
+  }
+
+  .footer-bot-text {
+    width: 290px;
+  }
+}
