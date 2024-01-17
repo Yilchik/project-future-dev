@@ -9,7 +9,6 @@
       <form
         class="sign-up-form form"
         name="sign-up"
-        novalidate
         autocomplete="on"
         method="post"
       >
@@ -20,16 +19,20 @@
             name="user-name"
             type="text"
             placeholder="Enter your name"
-            pattern="[A-Za-z]"
+            pattern="[A-Za-z]{3}"
+            required
           />
+
           <input
             class="form-input"
             id="user-email"
             name="user-email"
             type="email"
             placeholder="Enter your email"
-            pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+            required
           />
+
           <textarea
             class="form-comment"
             id="user-comment"
@@ -38,8 +41,8 @@
             placeholder="Message"
           ></textarea>
         </div>
+        <button type="submit" class="button">Send</button>
       </form>
-      <button type="submit" class="button">Send</button>
       <p class="agree">
         By clicking on “Send” button, you agree to our
         <a class="form-privacy-link" href="">Privacy&nbsp;Policy</a>, and allow
@@ -47,23 +50,25 @@
       </p>
     </div>
     <div class="foto">
-      <picture class="picture-foto-small">
-        <source
-          media="(min-width: 1280px)"
-          srcset="
-            ./img/sign-up/sign_up1-desk1280@1x.png 1x,
-            ./img/sign-up/sign_up1-desk1280@2x.png 2x
-          "
-        />
-        <img
-          src="./img/sign-up/sign_up1-desk1280@1x.png"
-          alt="lens"
-          width="142"
-          height="150"
-          loading="lazy"
-          class="foto-small"
-        />
-      </picture>
+      <div class="back-photo">
+        <picture class="picture-foto-small">
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/sign-up/sign_up1-desk1280@1x.png 1x,
+              ./img/sign-up/sign_up1-desk1280@2x.png 2x
+            "
+          />
+          <img
+            src="./img/sign-up/sign_up1-desk1280@1x.png"
+            alt="lens"
+            width="142"
+            height="150"
+            loading="lazy"
+            class="foto-small"
+          />
+        </picture>
+      </div>
       <picture class="picture-foto-big">
         <source
           media="(min-width: 1280px)"

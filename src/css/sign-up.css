@@ -2,13 +2,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .sign-up-container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  gap: 60px;
 }
 
 .sign-up-name {
@@ -100,6 +101,7 @@
 
 .button {
   border-radius: 12px;
+  border: none;
   background-color: #fff;
   display: flex;
   width: 335px;
@@ -144,6 +146,7 @@
   .agree {
     font-size: 14px;
     line-height: 1.28;
+    width: 480px;
   }
 }
 
@@ -165,16 +168,18 @@
   }
 }
 
-.foto-small {
-  max-width: 180px;
-  max-height: 288px;
+.back-photo {
+  width: 180px;
+  height: 288px;
   border-radius: 1000px;
-  background-color: #bea69e;
-  padding: 76px 19px 62px;
-  margin-left: 60px;
-  /* object-fit: none;
-  overflow-x: visible; */
-  box-shadow: -35.562px 17.781px 25.44px 0px rgba(0, 0, 0, 0.26);
+  background: #bea69e;
+  padding-top: 60px;
+}
+
+.foto-small {
+  width: 223px;
+  height: 222px;
+  margin-left: -25px;
 }
 
 .foto-big {
