@@ -206,9 +206,8 @@
 }
 
 .foto-big {
-  max-width: 340px;
-  max-height: 540px;
-  flex-shrink: 0;
+  width: 350px;
+  height: 540px;
   border-radius: 1000px;
   background-color: #1d1d1d;
   padding: 156px 50px 88px;
