@@ -21,14 +21,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  min-width: 335px;
-
+  min-width: 280px;
   height: 50px;
   padding: 0 20px;
-
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: #121212;
+}
+
+@media screen and (min-width: 375px) {
+  .navigation {
+    min-width: 335px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -121,8 +125,13 @@
   height: 20px;
   flex-shrink: 0;
   fill: #ffffff;
+  margin-right: auto;
+}
 
-  margin-right: 90px;
+@media screen and (min-width: 375px) {
+  .logo-header-icon {
+    margin-right: 90px;
+  }
 }
 
 @media screen and (min-width: 768px) {
