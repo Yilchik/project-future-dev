@@ -152,6 +152,11 @@ footer {
         }
     }
 
+
+    .footer-top{
+        margin-top: 50px;
+        width: 174px;
+    }
     .footer-all {
         flex-wrap: nowrap;
         flex-direction: row;
