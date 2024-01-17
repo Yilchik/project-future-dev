@@ -1,5 +1,5 @@
 footer {
-  background-image: url('/img/footer/footer_bg_mob@1x.png');
+  background-image: url(/img/footer/footer_bg_mob@1x.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -10,7 +10,7 @@ footer {
 
 @media only screen and (min-resolution: 192dpi) {
   footer {
-    background-image: url('/img/footer/footer_bg_mob@2x.png');
+    background-image: url(/img/footer/footer_bg_mob@2x.png);
   }
 }
 
@@ -158,12 +158,12 @@ footer {
 
 @media only screen and (min-width: 768px) {
   .footer {
-    background-image: url('/img/footer/footer_bg_tab@1x.png');
+    background-image: url(/img/footer/footer_bg_tab@1x.png);
   }
 
   @media only screen and (min-resolution: 192dpi) {
     .footer {
-      background-image: url('/img/footer/footer_bg_tab@2x.png');
+      background-image: url(/img/footer/footer_bg_tab@2x.png);
     }
   }
 }
@@ -195,12 +195,12 @@ footer {
 
   @media only screen and (min-width: 1280px) {
     .footer {
-      background-image: url('/img/footer/footer_bg_desk1280@1x.png');
+      background-image: url(/img/footer/footer_bg_desk1280@1x.png);
     }
 
     @media only screen and (min-resolution: 192dpi) {
       .footer {
-        background-image: url('/img/footer/footer_bg_desk1280@2x.png');
+        background-image: url(/img/footer/footer_bg_desk1280@2x.png);
       }
     }
   }
