@@ -257,6 +257,7 @@
 
     .hero-block {
         max-width: 390px;
+        margin-bottom: 0;
     }
 
     .hero-title-desk {
@@ -266,6 +267,10 @@
     .image-low {
         width: 397px;
         height: 520px;
+    }
+
+    .desk-left {
+        padding-bottom: 50px;
     }
 }
 
