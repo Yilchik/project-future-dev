@@ -91,7 +91,7 @@
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
-  width: 335px;
+  max-width: 335px;
   height: 100%;
   padding: 28px;
   position: relative;
@@ -191,7 +191,7 @@
   font-size: 14px;
   line-height: 1.28; /* 128.571% */
   letter-spacing: -0.02em;
-  width: 260px;
+  max-width: 260px;
 }
 @media screen and (min-width: 768px) {
   /* tablet */
@@ -199,12 +199,12 @@
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
-    width: 250px;
+    max-width: 250px;
   }
 }
 @media screen and (min-width: 1280px) {
   /* desctop */
   .about-courses {
-    width: 270px;
+    max-width: 270px;
   }
 }
