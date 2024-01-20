@@ -3,18 +3,6 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 20px;
-  padding-bottom: 20px;
-}
-@media screen and (min-width: 768px) {
-  .header-container {
-    padding-bottom: 40px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .header-container {
-    padding-bottom: 80px;
-  }
 }
 
 .navigation {

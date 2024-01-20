@@ -1,5 +1,6 @@
 /* Advertisement section */
 .advertisement-div {
+  margin-top: -40px;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -47,6 +48,7 @@
     padding-bottom: 24px;
     font-size: 40px;
     line-height: 1.25;
+    margin-top: -50px;
   }
 }
 
@@ -55,5 +57,6 @@
     min-width: 1239px;
     font-size: 59px;
     line-height: 1.08;
+    margin-top: -75px;
   }
 }
