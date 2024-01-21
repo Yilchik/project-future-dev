@@ -3,10 +3,9 @@
 
 ![future-dev](./src/img/readme/future-dev.jpg)
 
-Для організації роботи в команді нами було використано дошку в Trello під назвою
-Final Team Project HTML+CSS_FocusFrame:
+Для організації роботи в команді нами було використано дошку в
 
-[trello](https://trello.com/b/xvCubDyO/final-team-project-htmlcssfocusframe)
+[Trello під назвою Final Team Project HTML+CSS_FocusFrame:](https://trello.com/b/xvCubDyO/final-team-project-htmlcssfocusframe)
 
 ![trello-img](./src/img/readme/trello.jpg)
 
