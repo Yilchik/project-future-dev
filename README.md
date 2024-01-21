@@ -107,3 +107,7 @@ Footer
    введення за допомогою атрибуту pattern) та кнопка "Go".
 
 Проєкт пройшов оцінювання на [PageSpeed Insights](https://pagespeed.web.dev/)
+
+![efficiency-mob](./src/img/readme/efficiency-mob.jpg)
+
+![efficiency-desk](./src/img/readme/efficiency-desk.jpg)
