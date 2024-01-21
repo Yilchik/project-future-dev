@@ -1,29 +1,42 @@
 Проєкт FocusFrame створено нами - командою майбутніх розробників, яка символічно
 обрала собі назву <FUTURE DEV /> (тобто, future developers).
+
 ![future-dev](./src/img/readme/future-dev.jpg)
 
 Для організації роботи в команді нами було використано дошку в Trello під назвою
-Final Team Project HTML+CSS_FocusFrame: (./img/readme/trello.jpg)
+Final Team Project HTML+CSS_FocusFrame:
+
+![trello](./src/img/readme/trello.jpg)
 
 Нижче учасники нашої команди та завдання, які кожен з нас виконував, реалізуючи
-проєкт: (./img/readme/team.jpg)
+проєкт:
+
+![team](./src/img/readme/team.jpg)
 
 Сайт було виконано на запит потенційної замовниці (нижче її короткий профіль і
-вимоги): (./img/readme/customer.jpg)
+вимоги):
+
+![customer](./src/img/readme/customer.jpg)
 
 В результаті копіткої і злагодженої командної роботи отримали сайт школи
-фотографії FocusFrame: (./img/readme/project.jpg)
+фотографії FocusFrame:
 
-Сайт створено для потенційних студентів: (./img/readme/students.jpg)
+![project](./src/img/readme/project.jpg)
+
+Сайт створено для потенційних студентів:
+
+![students](./src/img/readme/students.jpg)
 
 При створені сайту було використано стек технологій:
-(./img/readme/technologies.jpg)
+
+![technologies](./src/img/readme/technologies.jpg)
 
 Cхематичне зображення функціоналу сайту FocusFrame:
-(./img/readme/technologies.jpg)
 
-Наш готовий проєкт - сайт школи фотографії FocusFrame
-(https://yilchik.github.io/project-future-dev/).
+![functional](./src/img/readme/functional.jpg)
+
+Наш готовий проєкт -
+[сайт школи фотографії FocusFrame](https://yilchik.github.io/project-future-dev/).
 
 Нижче детальний опис функціоналу:
 
