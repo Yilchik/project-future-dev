@@ -6,7 +6,9 @@
 Для організації роботи в команді нами було використано дошку в Trello під назвою
 Final Team Project HTML+CSS_FocusFrame:
 
-![trello](./src/img/readme/trello.jpg)
+[trello](https://trello.com/b/xvCubDyO/final-team-project-htmlcssfocusframe)
+
+![trello-img](./src/img/readme/trello.jpg)
 
 Нижче учасники нашої команди та завдання, які кожен з нас виконував, реалізуючи
 проєкт:
