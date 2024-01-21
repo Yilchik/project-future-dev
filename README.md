@@ -1,6 +1,6 @@
 Проєкт FocusFrame створено нами - командою майбутніх розробників, яка символічно
 обрала собі назву <FUTURE DEV /> (тобто, future developers).
-![future-dev](./img/readme/future-dev.jpg)
+![future-dev](./src/img/readme/future-dev.jpg)
 
 Для організації роботи в команді нами було використано дошку в Trello під назвою
 Final Team Project HTML+CSS_FocusFrame: (./img/readme/trello.jpg)
