@@ -56,6 +56,10 @@
   gap: 20px;
   padding-bottom: 133px;
 }
+.list-nav a:hover,
+.list-nav a:focus {
+  text-decoration: underline;
+}
 .first-item {
   font-weight: 700;
 }
