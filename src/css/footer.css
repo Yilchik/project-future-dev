@@ -1,11 +1,11 @@
 footer {
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 0;
   background-image: url(/img/footer/footer_bg_mob@1x.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
-  padding-top: 40px;
-  padding-bottom: 0;
-  margin-top: 40px;
 }
 
 @media only screen and (min-resolution: 192dpi) {
@@ -34,59 +34,57 @@ footer {
 .p {
   margin: 0;
 }
+
 .footer-top {
+  margin-right: auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-right: auto;
 }
 
 .icon-logo {
-  fill: #fff; /* Устанавливаем цвет текста (в данном случае, для иконки) на черный */
   width: 127px;
   height: 20px;
-  flex-shrink: 0;
   margin-bottom: 16px;
+  flex-shrink: 0;
+  fill: #fff;
 }
 
 .footer-top-contacts {
-  display: inline-flex;
   height: 46px;
+  margin-bottom: 40px;
+  display: inline-flex;
+  flex-shrink: 0;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  flex-shrink: 0;
   white-space: nowrap;
   text-decoration: none;
   font-size: 14px;
-  margin-bottom: 40px;
 }
 
 .footer-mid {
+  margin-bottom: 75px;
   display: flex;
   align-items: flex-start;
   gap: 40px;
-  margin-bottom: 75px;
 }
 
 .social-menu,
 .menu {
-  list-style: none;
-  text-decoration: none;
+  max-width: 100%;
   margin-right: auto;
-  color: #fff;
-
-  font-size: 14px;
-
-  line-height: normal;
-  text-transform: uppercase;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 14px;
-  margin: 0;
-  max-width: 100%;
   white-space: nowrap;
+  list-style: none;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .footer-bot {
@@ -95,25 +93,21 @@ footer {
 
 .submit-form {
   display: flex;
-  gap: 8px;
   flex-wrap: nowrap;
+  gap: 8px;
   border: none;
 }
 
 .footer-textarea {
   width: 267px;
   height: 60px;
-  flex-shrink: 0;
-  border-radius: 12px;
-  background: #fff;
-  text-align: center;
   padding: 20px 129px 20px 18px;
-  color: #121212;
-  font-family: DM Sans;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
+  flex-shrink: 0;
   line-height: 20px; /* 125% */
+  text-align: center;
+  color: #121212;
+  background-color: #fff;
+  border-radius: 12px;
   border: none;
 }
 
@@ -121,25 +115,22 @@ footer {
   width: 60px;
   height: 60px;
   flex-shrink: 0;
-  border-radius: 12px;
-  background: #1d1d1d;
-  color: #fff;
-  text-align: center;
-  font-family: 'DM Sans', sans-serif;
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   line-height: 120%;
+  text-align: center;
+  color: #fff;
+  background-color: #1d1d1d;
+  border-radius: 12px;
   border: none;
 }
 
 .footer-bot-text {
+  margin-bottom: 20px;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   gap: 72px;
-  margin-bottom: 20px;
-
-  padding: 0;
   font-size: 12px;
 }
 
@@ -164,8 +155,8 @@ footer {
 
 @media only screen and (min-width: 768px) {
   footer {
-    background-image: url(/img/footer/footer_bg_tab@1x.png);
     margin-top: 50px;
+    background-image: url(/img/footer/footer_bg_tab@1x.png);
   }
 
   @media only screen and (min-resolution: 192dpi) {
@@ -189,12 +180,13 @@ footer {
     flex-direction: row;
     justify-content: center;
   }
+
   .footer-mid {
-    margin-left: 56px;
-    gap: 25px;
     margin-right: 59px;
     margin-left: 57px;
+    gap: 25px;
   }
+
   .footer-textarea {
     width: 178px;
     padding: 20px 20px 20px 20px;
@@ -202,8 +194,8 @@ footer {
 
   @media only screen and (min-width: 1280px) {
     footer {
-      background-image: url(/img/footer/footer_bg_desk1280@1x.png);
       margin-top: 75px;
+      background-image: url(/img/footer/footer_bg_desk1280@1x.png);
     }
 
     @media only screen and (min-resolution: 192dpi) {
@@ -221,14 +213,16 @@ footer {
     .menu {
       gap: 20px;
     }
+
     .footer-textarea {
       width: 216px;
     }
+
     .footer-mid {
       margin-left: 234px;
-      gap: 100px;
       margin-right: 135px;
       margin-bottom: 50px;
+      gap: 100px;
     }
   }
 }
@@ -242,7 +236,6 @@ footer {
   .footer-bot-text {
     margin-left: 20px;
     margin-right: 20px;
-    width: 280px;
     min-width: 220px;
   }
 }
