@@ -1,138 +1,132 @@
 .reviews-title {
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: -0.04em;
-    margin-bottom: 40px;
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
 }
 
 .students {
-    padding: 20px;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.20);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .students:not(:first-child) {
-    display: none;
+  display: none;
 }
 
 .reviews-top {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
-    margin-bottom: 4px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .reviews-name {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-
-    margin-bottom: 4px;
+  margin-bottom: 4px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .reviews-status {
-    color: rgba(255, 255, 255, 0.50);
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: -0.02em;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .rev-star-list {
-    display: flex;
-    gap: 4px;
-
-    margin-left: 66px;
-    margin-bottom: 20px;
+  margin-left: 66px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 4px;
 }
 
 .rev-star-item {
-    width: 16px;
-    height: 16px;
+  width: 16px;
+  height: 16px;
 }
 
 .rev-star-icon {
-    fill: #BEA69E;
+  fill: #bea69e;
 }
 
-.rev-star-item:last-child>.rev-star-icon {
-    fill: #414141;
+.rev-star-item:last-child > .rev-star-icon {
+  fill: #414141;
 }
 
 .reviews-desc {
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
 }
-
-
 
 @media only screen and (min-width: 768px) {
-    .reviews-all {
-        margin: 0 32px;
-    }
+  .reviews-all {
+    margin: 0 32px;
+  }
 
-    .students {
-        position: relative;
-    }
+  .students {
+    position: relative;
+  }
 
-    .reviews-title {
-        font-size: 48px;
-        line-height: 1.13;
-        margin-bottom: 50px;
-    }
+  .reviews-title {
+    margin-bottom: 50px;
+    font-size: 48px;
+    line-height: 1.13;
+  }
 
-    .rev-star-list {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        margin: 0;
-    }
+  .rev-star-list {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 0;
+  }
 
-    .reviews-top {
-        margin-bottom: 20px;
-    }
+  .reviews-top {
+    margin-bottom: 20px;
+  }
 
-    .reviews-name {
-        line-height: 1.4;
-    }
+  .reviews-name {
+    line-height: 1.4;
+  }
 
-    .reviews-status {
-        font-size: 14px;
-        line-height: 1.29;
-    }
+  .reviews-status {
+    font-size: 14px;
+    line-height: 1.29;
+  }
 
-    .reviews-desc {
-        font-size: 16px;
-        line-height: 1.25;
-    }
+  .reviews-desc {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 
-    .rev-star-item {
-        width: 20px;
-        height: 20px;
-    }
+  .rev-star-item {
+    width: 20px;
+    height: 20px;
+  }
 
-    .rev-star-icon {
-        width: 20px;
-        height: 20px;
-        fill: #BEA69E;
-    }
+  .rev-star-icon {
+    width: 20px;
+    height: 20px;
+    fill: #bea69e;
+  }
 }
 
-
 @media only screen and (min-width: 1280px) {
-    .reviews-all {
-        display: flex;
-        gap: 20px;
-        margin: 0;
-    }
+  .reviews-all {
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
 
-    .students {
-        width: calc((100% - 20px)/ 1);
-    }
+  .students {
+    width: calc((100% - 20px) / 1);
+  }
 
-    .students:not(:first-child) {
-        display: block;
-    }
+  .students:not(:first-child) {
+    display: block;
+  }
 }
